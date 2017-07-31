@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.testing.mycustomview.MainActivity">
+
+    <com.example.testing.mycustomview.TitlebarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        app:centerTitle="自定义标题"
+        app:centerTextColor="#FFF"
+        app:leftDrawble="@drawable/ic_write_back"
+        app:leftTextColor="#FFF"
+        app:leftText="返回"
+        app:rightDrawable="@android:drawable/ic_btn_speak_now"
+        app:rightText="语音"
+        app:rightTextColor="#FFF"
+        />
+
+</LinearLayout>
